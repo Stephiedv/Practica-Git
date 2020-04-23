@@ -8,7 +8,7 @@ body{
 }
 
 .content figure{
-    margin: 0;
+    margin: 0
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -16,10 +16,10 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .content h1{
-    font-family: 'Kaushan Script', regular;
-    color: rgb(28, 57, 218);
+    font-family: 'Roboto', regular;
+    color: rgb(218, 158, 28);
     font-size: 50px;
-    text-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
 }
 
 .content{
