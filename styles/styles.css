@@ -91,11 +91,13 @@ h1,h2,h3,h4,h5,h6{
 .info h2{
     font-family: 'Signika Negative', sans-serif;
     /*text-shadow: 4px 4px 5px rgba(0,0,0,0.5);*/
-    font-size: 50px;
+    font-size: 30px;
     margin: 15px 0;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 1px;
+    padding: 50px;
+    color: rgb(22, 22, 22);
 }
 
 .infoContent{
@@ -161,8 +163,8 @@ h1,h2,h3,h4,h5,h6{
 footer{
     width: 100%;
     clear: both;
-    color: #666;
-    background: #141419;
+    color: rgb(255, 255, 255);
+    background: rgb(206, 53, 53);
     line-height: 40px;
     overflow: hidden;
 }
@@ -182,10 +184,10 @@ footer ul li{
     margin-right: 5px;
 }
 footer ul li a{
-  color: #666;
+  color: rgb(255, 255, 255);
 }
 footer ul li a:hover{
-    color: #666;
+    color: rgb(255, 255, 255);
     text-decoration: underline;
 }
 
