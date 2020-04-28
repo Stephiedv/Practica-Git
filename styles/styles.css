@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5,h6{
 .content h1{
     font-family: 'Roboto', regular;
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .content{
@@ -71,10 +71,16 @@ h1,h2,h3,h4,h5,h6{
 
 .info ul li {
     list-style: decimal inside;
-    font-size: 3em;
-    padding: 0.4em;
+    font-size: 1em;
+    padding: 1em;
     background-color: rgb(22, 22, 22);
     margin: 20px 0;
+    border-radius: 10px;
+}
+.info ul li:hover{
+    transform: scale(1.1);
+    background-color:rgb(206, 53, 53);
+    color: white;
 }
 
 .lista {
@@ -267,7 +273,7 @@ footer ul li a:hover{
 /* Media queries*/
 @media all and (min-width: 769px){
     .content h1{
-        font-size: 100px;
+        font-size: 60px;
     }
 
     .infoContent .block{
