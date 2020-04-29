@@ -98,13 +98,15 @@ h1,h2,h3,h4,h5,h6{
 }
 .lista ul li a{
     color:  white;
+    font-weight: 300;
 }
+
 .info a {
     color: white;
 }
 
 .info h2{
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Playfair Display', serif;
     /*text-shadow: 4px 4px 5px rgba(0,0,0,0.5);*/
     font-size: 30px;
     margin: 15px 0;
@@ -229,16 +231,18 @@ footer ul li a:hover{
 .git-logo, .github-logo{
     display: inline-block;
     vertical-align: middle;
-    width: 40%;
+    width: 12%;
+    
 }
 
 .imagen{
-        width: 60%;
+        width: 40%;
+        
 }
 
 .simbolo-mas{
     display: inline-block;
-    font-size: 8em;
+    font-size: 3em;
     vertical-align: middle;
     color: white;
 }
